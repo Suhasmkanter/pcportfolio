@@ -1,0 +1,55 @@
+[
+    {
+        "id": "featured-project-trackcta",
+        "title": "NEUROCARDIO AI",
+        "year": "Dec 2021 - Present",
+        "location": "Davangere",
+        "demo": "https://www.trackcta.com/",
+        "github": "https://github.com/hrishikeshpaul/trackcta",
+        "tags": [
+            "React",
+            "Python",
+            "NodeJS",
+            "Machine Learning"
+        ],
+        "description": "AI-based diagnostic tool for detecting brain tumors and heart disease using deep learning.",
+        "image": "/assets/featured-projects/trackcta.webp",
+        "jpg": "/assets/featured-projects/trackcta.jpeg"
+    },
+    {
+        "id": "featured-project-asctb-reporter",
+        "title": "A SMARTBUDGET / MONEYMAP",
+        "year": "Jun 2020 - Jun 2021",
+        "location": "Indiana University",
+        "demo": "https://hubmapconsortium.github.io/ccf-asct-reporter/",
+        "github": "https://github.com/hrishikeshpaul/ccf-asct-reporter",
+        "tags": [
+            "Angular 11",
+            "TypeScript",
+            "NodeJS",
+            "NGXS",
+            "Vega",
+            "TravisCI",
+            "Open Source"
+        ],
+        "description": "Minimal personal finance tracker for daily expenses and savings with a clean UI.",
+        "readMore": "https://hrishikeshpaul.medium.com/asct-b-reporter-a-visualization-tool-d4dd29de97d8",
+        "image": "/assets/featured-projects/asctb.webp",
+        "jpg": "/assets/featured-projects/asctb.jpeg"
+    },
+    {
+        "id": "featured-project-scrapbook",
+        "title": "CERTIPROOF",
+        "year": "Jan 2021 - May 2021",
+        "location": "GM University",
+        "tags": [
+            "Javascript"
+        ],
+        "demo": "http://34.69.102.109/",
+        "github": "https://github.com/hrishikeshpaul/scrapbook",
+        "description": "A micro-service architecture based web application that enables users to upload, share and manage images.",
+        "readMore": "https://hrishikeshpaul.medium.com/scrapbook-a-micro-service-based-photo-sharing-application-3a8760681af6",
+        "image": "/assets/featured-projects/scrapbook.webp",
+        "jpg": "/assets/featured-projects/scrapbook.jpeg"
+    }
+]

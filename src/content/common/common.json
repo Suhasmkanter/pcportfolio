@@ -1,0 +1,28 @@
+{
+    "name": "Pavan C",
+    "logoType": {
+        "mobile": "PC",
+        "desktop": "Pavan C"
+    },
+    "mainPicture": "/assets/pf_image1.jpg",
+    "mainPictureJPG": "/assets/pf_image2.jpg",
+    "cssVarPrefix": "PC",
+    "email": "pc855256@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/pavan-c-a492312a8/",
+    "github": "https://github.com/blueblur-max",
+    "resume": "https://drive.google.com/file/d/1ku36og0bwLqzZet_yRgtXywobtCv3moF/view?usp=sharing",
+    "socials": [
+        {
+            "type": "linkedin",
+            "link": "https://www.linkedin.com/in/pavan-c-a492312a8/"
+        },
+        {
+            "type": "github",
+            "link": "https://github.com/blueblur-max"
+        },
+        {
+            "type": "mail",
+            "link": "mailto:pc855256@gmail.com"
+        }
+    ]
+}
