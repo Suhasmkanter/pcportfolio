@@ -43,7 +43,7 @@ export const App: FC = () => {
             <Container h="100%" px={{ base: 6, md: 6, lg: 4 }}>
                 <Navbar />
 
-                <Box mt={{ base: "40px", md: NavbarHeight }}>
+                <Box className="newonebro" mt={{ base: "40px", md: NavbarHeight }}>
                     <Landing />
                     <Box id={ProjectsPageId}>
                         <PageHeader label="Featured Projects" />

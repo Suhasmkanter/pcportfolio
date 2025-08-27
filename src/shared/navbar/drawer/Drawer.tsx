@@ -18,11 +18,10 @@ import {
 } from "@chakra-ui/react";
 
 import { ColorModeButton } from "shared/color-mode-button/ColorModeButton";
-import { AboutPageId, WorkPageId, ContactPageId } from "utils/useScroll";
+import { WorkPageId, ContactPageId, ProjectsPageId, AboutPageId, SkillsPageId } from "../../../utils/useScroll";
 import { MenuIcon } from "utils/Icons";
 import { Socials } from "shared/socials/Socials";
 import { onResumeOpen } from "utils/Functions";
-
 interface Props extends StyleProps {
     onSectionClick: (section: string) => void;
     currentPage: string;
@@ -64,11 +63,11 @@ export const MenuDrawer: FC<Props> = ({ onSectionClick, currentPage, ...props })
                                 color={navItemColor}
                                 textDecoration="underline"
                                 textDecorationThickness="2px"
-                                textDecorationColor={currentPage === WorkPageId ? "primary.500" : "transparent"}
+                                textDecorationColor={currentPage === ProjectsPageId ? "primary.500" : "transparent"}
                                 onClick={() => {
                                     onClose();
                                     setTimeout(() => {
-                                        onSectionClick(WorkPageId);
+                                        onSectionClick(ProjectsPageId);
                                     }, 250);
                                 }}
                                 data-aos="fade"
@@ -76,14 +75,14 @@ export const MenuDrawer: FC<Props> = ({ onSectionClick, currentPage, ...props })
                                 fontWeight="600"
                                 fontSize="2xl"
                             >
-                                Work
+                                Projects
                             </Button>
                             <Button
                                 variant="link"
                                 color={navItemColor}
-                                textDecoration={currentPage === AboutPageId ? "underline" : "none"}
+                                textDecoration="underline"
                                 textDecorationThickness="2px"
-                                textDecorationColor="primary.500"
+                                textDecorationColor={currentPage === AboutPageId ? "primary.500" : "transparent"}
                                 onClick={() => {
                                     onClose();
                                     setTimeout(() => {
@@ -91,12 +90,51 @@ export const MenuDrawer: FC<Props> = ({ onSectionClick, currentPage, ...props })
                                     }, 250);
                                 }}
                                 data-aos="fade"
-                                data-aos-delay="300"
                                 fontWeight="600"
                                 fontSize="2xl"
+                                data-aos-delay="200"
                             >
                                 About
                             </Button>
+                            <Button
+                                variant="link"
+                                color={navItemColor}
+                                textDecoration="underline"
+                                textDecorationThickness="2px"
+                                textDecorationColor={currentPage === SkillsPageId ? "primary.500" : "transparent"}
+                                onClick={() => {
+                                    onClose();
+                                    setTimeout(() => {
+                                        onSectionClick(SkillsPageId);
+                                    }, 250);
+                                }}
+                                data-aos="fade"
+                                data-aos-delay="200"
+                                fontWeight="600"
+                                fontSize="2xl"
+                            >
+                                Skills
+                            </Button>
+                            <Button
+                                variant="link"
+                                color={navItemColor}
+                                textDecoration="underline"
+                                textDecorationThickness="2px"
+                                textDecorationColor={currentPage === ContactPageId ? "primary.500" : "transparent"}
+                                onClick={() => {
+                                    onClose();
+                                    setTimeout(() => {
+                                        onSectionClick(ContactPageId);
+                                    }, 250);
+                                }}
+                                data-aos="fade"
+                                data-aos-delay="200"
+                                fontWeight="600"
+                                fontSize="2xl"
+                            >
+                                Contact
+                            </Button>
+
                             <Button
                                 variant="link"
                                 color="primary.500"

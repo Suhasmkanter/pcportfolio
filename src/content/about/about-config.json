@@ -2,56 +2,47 @@
     "educations": [
         {
             "id": "edu-1",
-            "school": "Indiana University",
-            "degree": "Master of Science in Computer Science",
+            "school": "GM University",
+            "degree": "Bachelors in Computer Science & Engineering",
             "duration": "Aug 2019 - May 2021",
             "content": [
                 "GPA: 4/4",
                 "Courses: Software Engineering, Distributed Systems, Operating Systems, Advanced Algorithms, Experience Design"
-            ]
-        },
-        {
-            "id": "edu-2",
-            "school": "Manipal University",
-            "degree": "Bachelors in Computer Engineering",
-            "duration": "Aug 2015 - Jul 2019",
-            "content": [
-                "GPA: 8/10",
-                "Courses: Data Structures, OOP, Algorithms, Software Engineering, Computer Networks, Artificial Intelligence"
             ]
         }
     ],
     "experiences": [
         {
             "id": "exp-1",
-            "company": "Reputation",
-            "position": "Software Engineer (Frontend)",
+            "company": "Cloud Computing ",
+            "position": "NPTEL",
             "duration": "Jun 2020 - Jun 2021",
             "description": [
-                "Revamping the current report generation framework using React, that aggregates data from 30 modules to support an interactive cartesian system.​",
-                "Integrated user activity data from BigQuery into a custom tailored dashboard available to 10000+ clients.",
-                "Spearheaded the work on multiple reports for 5 priority clients to provide additional functionalities."
+                "  Completed the NPTEL Cloud Computing course, learning the fundamentals of cloud services, deployment models, and architecture.",
+                "Gained hands-on understanding of AWS, virtualization, and scalable cloud solutions.",
+                "The experience enhanced my practical knowledge and confidence in implementing cloud-based systems."
             ]
         },
         {
             "id": "exp-2",
-            "company": "CNS (NIH), Indiana University",
-            "position": "Software Engineer",
+            "company": "Career Essentials in Software Development",
+            "position": "Microsoft & Linkedin",
             "duration": "Jun 2020 - Jun 2021",
             "description": [
-                "Developed state of the art visualization tools for researchers and doctors to envision large biological datasets using ​Angular 11​, Node & Vega.​",
-                "Devised an algorithm to compute statistics that highlight anomalies in the data and displayed them on an intuitive interface.",
-                "Created detailed UX flows, experience maps, wire-frames and conducted interviews across various biological consortia to enhance user experience."
+                "Finished this course to strengthen core software development practices and professional coding standards.",
+                "Learned version control, teamwork, testing, and agile workflows used in real-world software projects.",
+                "The course helped me align technical skills with industry expectations and career readiness."
             ]
         },
         {
             "id": "exp-3",
-            "company": "Skylark Drones",
-            "position": "Software Engineer Intern",
+            "company": "Data Structures and Algorithms",
+            "position": "Udemy",
             "duration": "Jan 2019 - Jun 2019",
             "description": [
-                "Developed a web app for mission planning, control and execution using Vue & Flask, thereby improving onside project performance by 22%.​",
-                "Designed an icon set for various functionalities using ​Illustrator​, which improved usability by 20%."
+                "Completed a comprehensive course on data structures and algorithms, covering arrays, trees, graphs, and sorting techniques.",
+                "Focused on problem-solving strategies and optimizing code efficiency for real-world applications.",
+                "The course significantly improved my logical thinking and coding proficiency for technical challenges."
             ]
         }
     ],
@@ -73,16 +64,41 @@
         },
         {
             "title": "Web",
-            "tools": ["React", "Angular 11", "Vue", "NodeJS", "Flask", "Redux", "NGXS", "HTML/CSS", "OAuth", "i18n"]
+            "tools": [
+                "React",
+                "Angular 11",
+                "Vue",
+                "NodeJS",
+                "Flask",
+                "Redux",
+                "NGXS",
+                "HTML/CSS",
+                "OAuth",
+                "i18n"
+            ]
         },
         {
             "title": "Databases",
-            "tools": ["MongoDB", "Redis", "MySQL", "Firebase"]
+            "tools": [
+                "MongoDB",
+                "Redis",
+                "MySQL",
+                "Firebase"
+            ]
         },
-
         {
             "title": "OS & Tools",
-            "tools": ["MacOS", "Linux", "Git", "Agile (Scrum)", "MVC", "Jenkins", "Heroku", "Docker", "Kubernetes"]
+            "tools": [
+                "MacOS",
+                "Linux",
+                "Git",
+                "Agile (Scrum)",
+                "MVC",
+                "Jenkins",
+                "Heroku",
+                "Docker",
+                "Kubernetes"
+            ]
         },
         {
             "title": "Design & Research",
